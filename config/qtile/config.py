@@ -31,10 +31,10 @@ def battery_widget():
             format="{char} {percent:2.0%}",
             full_char="",
             update_interval=1,
-            foreground='#0048ba',  # Absolute Zero
+            foreground='#0048ba'  # Absolute Zero
         )
     else:
-        return None
+        return widget.TextBox(text="", width=0)
 
 # Start of my config: To increase and decrease volume
 from libqtile.widget import TextBox
@@ -235,7 +235,7 @@ screens = [
                     active='#ffd700',  # Gold1
                 ),
                 widget.WindowName(
-                    foreground='#39ff14',  # Neon Green
+                    foreground='#39ff14',  # Neon Greenf
                     max_chars=70
                 ),
                 widget.CurrentLayout(
@@ -305,7 +305,7 @@ auto_minimize = True
 wl_input_rules = None
 
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
-# string besides java UI toolkits; you can see several discussions on the
+# string besides java UI toolkits; you can see several discussions on thef
 # mailing lists, GitHub issues, and other WM documentation that suggest setting
 # this string if your java app doesn't work correctly. We may as well just lie
 # and say that we're a working one by default.
