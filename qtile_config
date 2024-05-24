@@ -251,7 +251,7 @@ screens = [
                     display_format='󰇚 {updates}',
                 ),
                 widget.Spacer(length=10),
-               # battery_widget(),
+                battery_widget(),
                 widget.Spacer(length=10),
                 script_widget,  # (Network Widget) A Script runs and displays an icon depending on if connected to wifi, ethernet, or disconnected
                 widget.Spacer(length=10),
