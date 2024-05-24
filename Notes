@@ -23,6 +23,14 @@ sudo pacman -S pipewire-pulse
 sudo pacman -S base-devel
 sudo pacman -S git
 
+for sddm
+---------
+make dir /etc/sddm.conf.d
+copy /usr/lib/sddm/sddm.conf.d/default.conf to /etc/sddm.conf.d/default.conf
+edit /etc/sddm.conf.d/default.conf
+sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-svg
+git clone https://aur.archlinux.org/sddm-sugar-dark.git
+makepkg -si
 
 feh_wallpaper.service needs to be stored at $HOME/.config/systemd/user
 systemctl --user daemon-reload
