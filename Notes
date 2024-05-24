@@ -26,6 +26,8 @@ sudo pacman -S git
 
 for sddm
 ---------
+theme dir: /usr/share/sddm/themes
+
 make dir /etc/sddm.conf.d
 copy /usr/lib/sddm/sddm.conf.d/default.conf to /etc/sddm.conf.d/default.conf
 edit /etc/sddm.conf.d/default.conf
