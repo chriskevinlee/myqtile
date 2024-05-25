@@ -29,7 +29,7 @@ for sddm
 theme dir: /usr/share/sddm/themes
 
 make dir /etc/sddm.conf.d
-copy /usr/lib/sddm/sddm.conf.d/default.conf to /etc/sddm.conf.d/default.conf
+copy /usr/lib/sddm/sddm.conf.d/default.conf to /etc/sddm.conf.d/default.conf.user
 edit /etc/sddm.conf.d/default.conf
 sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-svg
 git clone https://aur.archlinux.org/sddm-sugar-dark.git
