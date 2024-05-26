@@ -15,6 +15,7 @@ sudo pacman -S xdg-user-dirs
 sudo pacman -S python-psutil
 sudo pacman -S pacman-contrib
 
+sudo pacman -S lsd
 
 # get audio widget working
 sudo pacman -S pavucontrol
