@@ -9,9 +9,9 @@ Item {
     ListModel {
         id: powerModel
 
-        ListElement {
-            name: "Sleep"
-        }
+//        ListElement {
+//            name: "Sleep"
+//       }
 
         ListElement {
             name: "Restart"
