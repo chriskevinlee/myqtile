@@ -23,3 +23,24 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Alias to runs lsd (LSDeluxe) to add colour icons to the ls command
+alias ls='lsd'
+
+# Alias to run rm -i to prompt to delete
+alias rm='rm -i'
+
+# Alias to show human readable for df(Disk Free)
+alias df='df -h'
+
+#Alias to show human readable for du(Disk Usage)
+alias du='du -h'
+
+# Alias to Sync Repository
+alias pacs='sudo pacman -Sy'
+
+# Alias to Update System
+alias pacu='sudo pacman -Syu'
+
+# Alias to Install packages
+alias paci='sudo pacman -S'
