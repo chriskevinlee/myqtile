@@ -47,3 +47,4 @@ zsh
 ====
 https://github.com/romkatv/powerlevel10k#installation
 sudo pacman -S zsh-syntax-highlighting
+chsh -s /usr/bin/zsh
