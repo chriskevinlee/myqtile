@@ -40,3 +40,9 @@ feh_wallpaper.service needs to be stored at $HOME/.config/systemd/user
 systemctl --user daemon-reload
 systemctl --user enable
 systemctl --user start
+
+
+
+zsh 
+====
+https://github.com/romkatv/powerlevel10k#installation
