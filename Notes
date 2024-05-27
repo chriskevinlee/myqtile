@@ -45,6 +45,12 @@ systemctl --user start
 
 zsh 
 ====
-https://github.com/romkatv/powerlevel10k#installation
-sudo pacman -S zsh-syntax-highlighting
+sudo pacman -S zsh
 chsh -s /usr/bin/zsh
+
+#https://github.com/romkatv/powerlevel10k#installation
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+sudo pacman -S zsh-syntax-highlighting
+
