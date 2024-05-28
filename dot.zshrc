@@ -27,3 +27,15 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Shows suggestions when starting to type a command
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+alias cat='bat'
+
+alias du='du -h'
+
+alias df='df -h'
+
+alias pacs='sudo pacman -Sy'
+
+alias pacu='sudo pacman -Syu'
+
+alias paci='sudo pacman -S'
