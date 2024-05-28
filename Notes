@@ -16,6 +16,7 @@ sudo pacman -S python-psutil
 sudo pacman -S pacman-contrib
 
 sudo pacman -S lsd
+sudo pacman -S bat
 
 # get audio widget working
 sudo pacman -S pavucontrol
