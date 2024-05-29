@@ -56,5 +56,4 @@ chsh -s /usr/bin/zsh
 arch:
 sudo pacman -S pkgfile # For zsh command-not-found.plugin
 pkgfile -u
-
-
+/usr/share/zsh/plugins/ # zsh plugin location 
