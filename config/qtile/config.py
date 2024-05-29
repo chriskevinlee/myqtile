@@ -214,6 +214,7 @@ screens = [
                 widget.Clock(
                     foreground='#4666ff',  # Neon Blue
                     format="  %a %d-%m-%Y",
+                    #format="  %a %d-%B-%Y",
                 ),
                 widget.Spacer(length=10),
                 widget.Clock(
