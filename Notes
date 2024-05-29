@@ -62,7 +62,8 @@ zsh
 
 chsh -s /usr/bin/zsh
 
-#https://github.com/romkatv/powerlevel10k#installation
-
+arch:
+sudo pacman -S pkgfile # For zsh command-not-found.plugin
+pkgfile -u
 
 
