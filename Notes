@@ -28,8 +28,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc # sets zsh shell promt to powerlevel10k
 
 
-
-
 sudo pacman -S python-psutil
 sudo pacman -S pacman-contrib
 
@@ -39,30 +37,22 @@ sudo pacman -S git
 
 
 
-
-for sddm
+SDDM
 ---------
 theme dir: /usr/share/sddm/themes
-
 make dir /etc/sddm.conf.d
-
 copy /usr/lib/sddm/sddm.conf.d/default.conf to /etc/sddm.conf.d/default.conf.user
 
-edit /etc/sddm.conf.d/default.conf
-
-
-
+Feh Wallpaper
+------------
 feh_wallpaper.service needs to be stored at $HOME/.config/systemd/user
 systemctl --user daemon-reload
 systemctl --user enable
 systemctl --user start
 
-
 zsh 
 ====
-
 chsh -s /usr/bin/zsh
-
 arch:
 sudo pacman -S pkgfile # For zsh command-not-found.plugin
 pkgfile -u
