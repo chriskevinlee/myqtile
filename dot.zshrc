@@ -17,16 +17,31 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
+# Adds the powerline prompt theme
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 
 # Shows vaild commands in green and invaild commands as red
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
 # Shows suggestions when starting to type a command
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+# By Press esc twice it adds sudo to a command
+source /usr/share/zsh/plugins/sudo/sudo.plugin.zsh
+
+# Allows you search just throught a type command, EG if you type nano by press allow up and down it will cycle the any commands that nano have been used with
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# Suggests a package to be install if command is not found
+source /usr/share/zsh/plugins/command-not-found/command-not-found.plugin.zsh
 
 alias cat='bat'
 
