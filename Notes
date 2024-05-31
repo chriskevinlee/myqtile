@@ -15,8 +15,6 @@ sudo pacman -S lsd # coloured ls output
 sudo pacman -S bat # replacement fot cat with coloured output
 sudo pacman -S pavucontrol # Audio Control GUI
 sudo pacman -S pipewire-pulse # Audio Control
-
-# for yay (AUR) and sublime-text
 sudo pacman -S base-devel # to build arch packages
 sudo pacman -S git # to download git packages
 
