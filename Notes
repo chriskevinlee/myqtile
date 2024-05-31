@@ -16,6 +16,12 @@ sudo pacman -S bat # replacement fot cat with coloured output
 sudo pacman -S pavucontrol # Audio Control GUI
 sudo pacman -S pipewire-pulse # Audio Control
 
+# for yay (AUR) and sublime-text
+sudo pacman -S base-devel # to build arch packages
+sudo pacman -S git # to download git packages
+
+
+
 sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-svg # for sddm theme
 git clone https://aur.archlinux.org/sddm-sugar-dark.git
 makepkg -si # theme for sddm
@@ -33,9 +39,7 @@ INSTALL sudo.plugin.zsh and ftc.zsh with yay
 sudo pacman -S python-psutil
 sudo pacman -S pacman-contrib
 
-# for yay (AUR) and sublime-text
-sudo pacman -S base-devel
-sudo pacman -S git
+
 
 
 
