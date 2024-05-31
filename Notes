@@ -25,6 +25,8 @@ sudo pacman -S git # to download git packages
 sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-svg # for sddm theme
 git clone https://aur.archlinux.org/sddm-sugar-dark.git
 makepkg -si # theme for sddm
+(to run makepkg need a sudo user, may need to create a user add them to wheel)
+
 
 sudo pacman -S zsh # zsh Shell
 sudo pacman -S zsh-history-substring-search # for zsh shell allows to search throught typed commands
