@@ -17,10 +17,9 @@ sudo pacman -S pavucontrol # Audio Control GUI
 sudo pacman -S pipewire-pulse # Audio Control
 sudo pacman -S base-devel # to build arch packages
 sudo pacman -S git # to download git packages
-
-
-
 sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-svg # for sddm theme
+
+
 git clone https://aur.archlinux.org/sddm-sugar-dark.git
 makepkg -si # theme for sddm
 (to run makepkg need a sudo user, may need to create a user add them to wheel and enable wheel in /etc/sudoers )
