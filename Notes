@@ -29,7 +29,7 @@ sudo pacman -S zsh # zsh Shell
 sudo pacman -S zsh-history-substring-search # for zsh shell allows to search throught typed commands
 sudo pacman -S zsh-syntax-highlighting # for the zsh shell will show vaild commands in green and invaild commands in red
 sudo pacman -S zsh-autosuggestions # for the zsh shell wil show suggested typed commands
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /etc/skel
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /etc/skel/powerlevel10k
 #git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc # sets zsh shell promt to powerlevel10k
 
