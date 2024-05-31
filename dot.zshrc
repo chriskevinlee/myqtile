@@ -24,24 +24,37 @@ source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# Shows vaild commands in green and invaild commands as red
+# Shows vaild commands in green and invaild commands as red. Installed via Pacman
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-
-# Shows suggestions when starting to type a command
+# Shows suggestions when starting to type a command. Installed via Pacman
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
-# By Press esc twice it adds sudo to a command
-source /usr/share/zsh/plugins/sudo/sudo.plugin.zsh
-
-# Allows you search just throught a type command, EG if you type nano by press allow up and down it will cycle the any commands that nano have been used with
+# Allows you search just throught a type command, EG if you type nano by press allow up and down 
+# it will cycle the any commands that nano have been used with. Installed via Pacman. use cat -v to get keybind code
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# Suggests a package to be install if command is not found
-source /usr/share/zsh/plugins/command-not-found/command-not-found.plugin.zsh
+# By Press esc twice it adds sudo to a command. Installed via yay
+source /usr/share/zsh/plugins/zsh-sudo/sudo.plugin.zsh
+
+# Suggests a package to be install if command is not found. Install via yay
+source /usr/share/doc/find-the-command/ftc.zsh
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alias cat='bat'
 
@@ -54,3 +67,12 @@ alias pacs='sudo pacman -Sy'
 alias pacu='sudo pacman -Syu'
 
 alias paci='sudo pacman -S'
+
+
+
+
+
+
+
+
+
