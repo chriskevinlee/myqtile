@@ -27,6 +27,8 @@ sudo pacman -S zsh-autosuggestions # for the zsh shell wil show suggested typed 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc # sets zsh shell promt to powerlevel10k
 
+INSTALL sudo.plugin.zsh and ftc.zsh with yay
+
 
 sudo pacman -S python-psutil
 sudo pacman -S pacman-contrib
